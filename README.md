@@ -10,3 +10,5 @@ The vector database I use is Pinecone. It's a damn good system that's fairly int
 Please note that OpenAI charges to use GPT-3.5 and the embedding tool and Pinecone charges a relatively small amount for their services. Using an open-source LLM gives you access to the Ollama embedding functionality, which is similarly free. I have notes in the code about the vector length for whichever LLM model you'd like to use with your database of choice. If you use OpenAI and/or Pinecone, you'll need to generate your API key, because you can't use mine. 
 
 My next big update will be a simple Flask-based web application with minor tweaks and improvements to the base RAG model.
+
+NOTE: Enter your question, file path, or index name wherever you see empty quotation marks in the code.
