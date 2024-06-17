@@ -77,20 +77,22 @@ LLM Choices
  - Mistral 7B (mistral:instruct)
  
 Embedding Model Choices
- - Ollama
+- Ollama
   - nomic-embed-text
   - mxbai-embed-large
   - all-minilm
- - GPT
+- GPT
   -text-embedding-3-small
   -text-embedding-3-large
   -text-embedding-ada-002
- - Sentence Transformer (these are models pulled from Hugging Face)
+- Sentence Transformer (these are models pulled from Hugging Face)
   -sentence-transformers/all-MiniLM-L12-v2
+
+Embedding Schemes
+- ollama
+- gpt
+- sentence_transformer
 '''
-
-
-embedding_schemes = ["ollama", "gpt", "sentence_transformer"]
 
 # User selections
 selected_llm_type = "ollama"  # Can be "gpt" or "ollama"
